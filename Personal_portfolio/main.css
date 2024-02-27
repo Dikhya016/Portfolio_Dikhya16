@@ -95,16 +95,21 @@ body{
 .logo_content{
     display: flex;
     gap: 2em;
-    padding: 2em 2em;
+    padding: 2em 0em;
 }
 .img{
     height: 40px;
+    width: 40px;  
+}
+.download{
+    display: flex;
+}
+.down_btn{
+    height: 30px;
     width: 40px;
-    border: 1px solid ;
 }
 
 .download>a{
-    margin: 0em 2em 0em 0em;
     font-size: 1.5em;
     font-weight: 100px;
     padding: .0em .1em;
@@ -234,6 +239,7 @@ body{
 }
 .stack{
     font-size: 20px;
+    color: goldenrod;
 }
  /* NOTE contact section */
     
@@ -254,7 +260,7 @@ body{
 }
 .contact>div>a>img{
     width: 40px;
-    border:1px black solid;
+    
 }
 .p_mail{
     margin: 1em 4em;
@@ -265,7 +271,7 @@ body{
 }
 .p_mail>div>a>img{
     width: 30px;
-    border:1px black solid;   
+      
 }
 .p_mail>div{
     display: flex;
