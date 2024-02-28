@@ -241,6 +241,30 @@ body{
     font-size: 20px;
     color: goldenrod;
 }
+/* NOTE git section */
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+.container1>div, .container2>div{
+    transition: transform 0.5s; 
+}
+.container1>div:hover, .container2>div:hover {
+    transform: scale(1.1);
+}
+  
+.container1>div:first-child>img{
+    width: 428px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
+
  /* NOTE contact section */
     
 .idm{
@@ -253,7 +277,10 @@ body{
     /* border: 2px dashed; */
     margin: 3em 4em 0em 4em;
     display: flex;
-    gap: 2em;
+    gap: 2em; 
+}
+.contact_container{
+    margin-top: 1.5em;
 }
 .contact>div{
     text-align: center;

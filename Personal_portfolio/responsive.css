@@ -1,0 +1,114 @@
+@media all and (min-width: 768px) and (max-width: 1024px){
+    /* NOTE nav bar */
+    .navbar{
+        padding: 0em 1em;
+    }
+    .sec>a, .resume>a{
+        font-size: 1em;
+    }
+    /* NOTE home section */
+    .home_container{
+        border: 1px solid;
+    }
+    .hand_g{
+        height: 40px;
+        width: 40px;
+    }
+    .main_container1{
+        font-size: 10px;
+        padding-bottom: 2em;
+    }
+    .main_container2>img{
+        /* border: 1px solid; */
+        width: 300px;
+        height: 300px
+    }
+    .first_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+    }
+    .container1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .container1>div:first-child>img{
+        width: 305px;
+    }
+    .container1>div>img{
+        width: 340px;
+    }
+    .container2>div>img{
+        width: 340px;
+    }
+    /* NOTE about section */
+    .abt{
+        font-size: 40px;
+    }
+    .intro{
+        font-size: 10px;
+    }
+    .my_pic>img{
+        border: 2px solid;
+        height: 350px;
+    }
+    .tech{
+        font-size: 30px;
+    }
+    .techskill{
+        padding: 0.5em 0.5em;
+    }
+    .techskill>div>img{
+        height: 130px;
+        
+    } 
+    /* NOTE projects section */
+    .project_container{
+        margin-top: 1em;
+    }
+    .first_container>div>img{
+        height: 200px;
+        width: 260px;
+    }
+    .first_container>div{
+        border: 2px solid;
+    
+    }
+    .project_points{
+        font-size: 18px;
+        text-align: left;
+        padding-left: 2em;
+    }
+    .stack{
+        font-size: 18px;
+        color: goldenrod;
+    }
+    /* NOTE git section   */
+    .container1>div:first-child>img{
+        width: 340px;
+    }
+    
+    .container1>div>img , .container2>div>img{
+        /* border: 2px solid; */
+        width: 380px;
+        height: 200px;   
+    }
+    /* NOTE contact section */
+    .contact{
+        margin: 1em 2em 0em 4em; 
+    }
+
+}
+/* @media all and (min-width: 320px) and (max-width:767px){
+
+   .navbar{
+    border: 2px red solid;
+   } 
+   .home_container{
+    display:grid;
+    border: 2px red solid;
+   }
+   .main_container2>div>img{
+    height: 20px;
+    width: 20px;
+   }
+} */
