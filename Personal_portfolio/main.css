@@ -10,6 +10,7 @@ body{
     font-family: sans-serif;
     
 }
+
  /* NOTE nav bar  */
 .navbar{
     padding: 0em 2em;
@@ -240,6 +241,13 @@ body{
 .stack{
     font-size: 20px;
     color: goldenrod;
+}
+.git_link>button>a{
+    font-size: 25px;
+    background-color:white;
+    color: black;
+    
+
 }
 /* NOTE git section */
 .container1{
