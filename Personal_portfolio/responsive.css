@@ -1,111 +1,231 @@
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media all and (min-width: 768px) and (max-width: 1024px) {
     /* NOTE nav bar */
-    .navbar{
-        padding: 0em 1em;
+    .navbar {
+      padding: 0em 1em;
     }
-    .sec>a, .resume>a{
-        font-size: 1em;
+    .sec > a,
+    .resume > a {
+      font-size: 1em;
     }
     /* NOTE home section */
-    .home_container{
-        border: 1px solid;
+    .home_container {
+      border: 1px solid;
     }
-    .hand_g{
-        height: 40px;
-        width: 40px;
+    .hand_g {
+      height: 40px;
+      width: 40px;
     }
-    .main_container1{
-        font-size: 10px;
-        padding-bottom: 2em;
+    .main_container1 {
+      font-size: 10px;
+      padding-bottom: 2em;
     }
-    .main_container2>img{
-        /* border: 1px solid; */
-        width: 300px;
-        height: 300px
+    .main_container2 > img {
+      /* border: 1px solid; */
+      width: 300px;
+      height: 300px;
     }
-    .first_container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr); 
+    .first_container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
-    .container1{
-        display: flex;
-        justify-content: space-evenly;
+    .container1 {
+      display: flex;
+      justify-content: space-evenly;
     }
-    .container1>div:first-child>img{
-        width: 305px;
+    .container1 > div:first-child > img {
+      width: 305px;
     }
-    .container1>div>img{
-        width: 340px;
+    .container1 > div > img {
+      width: 340px;
     }
-    .container2>div>img{
-        width: 340px;
+    .container2 > div > img {
+      width: 340px;
     }
     /* NOTE about section */
-    .abt{
-        font-size: 40px;
+    .abt {
+      font-size: 40px;
     }
-    .intro{
-        font-size: 10px;
+    .intro {
+      font-size: 10px;
     }
-    .my_pic>img{
-        border: 2px solid;
-        height: 350px;
+    .my_pic > img {
+      border: 2px solid;
+      height: 350px;
     }
-    .tech{
-        font-size: 30px;
+    .tech {
+      font-size: 30px;
     }
-    .techskill{
-        padding: 0.5em 0.5em;
+    .techskill {
+      padding: 0.5em 0.5em;
     }
-    .techskill>div>img{
-        height: 130px;
-        
-    } 
+    .techskill > div > img {
+      height: 130px;
+    }
     /* NOTE projects section */
-    .project_container{
-        margin-top: 1em;
+    .project_container {
+      margin-top: 1em;
     }
-    .first_container>div>img{
-        height: 200px;
-        width: 260px;
+    .first_container > div > img {
+      height: 200px;
+      width: 260px;
     }
-    .first_container>div{
-        border: 2px solid;
-    
+    .first_container > div {
+      border: 2px solid;
     }
-    .project_points{
-        font-size: 18px;
-        text-align: left;
-        padding-left: 2em;
+    .project_points {
+      font-size: 18px;
+      text-align: left;
+      padding-left: 2em;
     }
-    .stack{
-        font-size: 18px;
-        color: goldenrod;
+    .stack {
+      font-size: 18px;
+      color: goldenrod;
     }
     /* NOTE git section   */
-    .container1>div:first-child>img{
-        width: 340px;
+    .container1 > div:first-child > img {
+      width: 340px;
     }
-    
-    .container1>div>img , .container2>div>img{
-        /* border: 2px solid; */
-        width: 380px;
-        height: 200px;   
+  
+    .container1 > div > img,
+    .container2 > div > img {
+      /* border: 2px solid; */
+      width: 380px;
+      height: 200px;
     }
     /* NOTE contact section */
-    .contact{
-        margin: 1em 2em 0em 4em; 
+    .contact {
+      margin: 1em 2em 0em 4em;
     }
-
 }
-@media all and (min-width: 320px) and (max-width:767px){
-   .home_container{
-    display:flex;
-    flex-direction:column-reverse;
-    
-   }
-   .main_container1{
-    border: 2px red solid;
-   }
-   
-}                  
+@media all and (min-width: 320px) and (max-width: 450px) {
+    /* NOTE navbar */
+    #menu-icon {
+      display: block;
+      color: white;
+      font-size: 2em;
+    }
+    #navContain {
+      width: 100%;
+      display: flex;
+      gap: 0.2em;
+      position: absolute;
+      top: -1000px;
+      right: 0;
+      left: 0;
+      flex-direction: column;
+      text-align: left;
+      padding: 0 5%;
+      transition: all 0.45s ease;
+      background-color: black;
+    }
+    #navContain.open {
+      top: 100%;
+    }
+    #navContain.open a {
+      font-size: 1em;
+    }
+    .resume > a {
+      font-size: 1em;
+    }
+    /* NOTE home */
+    #home {
+      flex-wrap: wrap-reverse;
+      padding: 0.5em;
+    }
+    .main_container1 {
+      margin: auto;
+    }
+    .hii {
+      font-size: 1.2em;
+    }
+    .hand_g {
+      width: 1.2em;
+      height: 1.2em;
+    }
+    .ds {
+      font-size: 1em;
+    }
+    .email {
+      font-size: 0.7em;
+      margin-top: 1em;
+    }
+    .logo_content {
+      margin-top: -1em;
+    }
+    .download {
+      margin-top: -1em;
+    }
+    .main_container2 {
+      padding: 0em;
+      margin: auto;
+    }
+    .main_container2 > img {
+      width: 18.5em;
+      height: 18em;
+    }
+    /* NOTE about */
+    .abt {
+      font-size: 2.3em;
+      margin-top: 0.5em;
+    }
+    .dp_about {
+      flex-direction: column;
+    }
+    .my_pic > img {
+      width: 20em;
+      height: 25em;
+      border-radius: 10px;
+    }
+    .intro {
+      margin-top: -4em;
+      padding: 0em;
+    }
+    .intro :nth-child(2) {
+      font-size: 1.3em;
+      line-height: 1.2em;
+      text-align: center;
+    }
+    .tech {
+      font-size: 2em;
+    }
+    .techskill {
+      flex-wrap: wrap;
+    }
+    .first_container {
+      flex-wrap: wrap;
+    }
+  
+    #p_2nd > img,
+    #p_3rd > img {
+      width: 260px;
+    }
+    .git_container > div {
+      flex-wrap: wrap;
+    }
+    .container1 {
+      gap: 1em;
+    }
+    .container1 > div > img {
+      width: 300px;
+    }
+    .container1 > div:first-child > img {
+      width: 300px;
+    }
+  
+    .container2 > div > img {
+      width: 300px;
+    }
+    .contact {
+      margin: auto;
+      justify-content: center;
+      margin-top: 1em;
+    }
+    .p_mail {
+      gap: 0.5em;
+      margin: 1em auto;
+      padding: 0em 0em 0em 2em;
+    }
+    .p_mail > div > p {
+      font-size: 0.8em;
+    }
+}

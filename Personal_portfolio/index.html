@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- NOTE nav bar -->
 
     <nav class="navbar">
-        <div class="logo">
+        <div class= "logo">
             <img src="./images/logo.png" alt="logo">
         </div>
-        <li class="sec">
+        <li class="sec" id="navContain">
             <a href="#home">HOME</a>
             <a href="#about">ABOUT</a>
             <a href="#skills">SKILLS</a>
@@ -25,6 +29,7 @@
         <div class="resume">
             <a href="images/Dikhya-Sahu-Resume.pdf" target="_blank">RESUME</a>
         </div>
+        <i id="menu-icon" class="bx bx-menu"></i>
     </nav>
 <!-- NOTE home section -->
     <div class="home_container" id="home">
@@ -52,8 +57,6 @@
             <img src="images/dev.gif" alt="gif_img">
 
         </div>
-        
-
     </div>
 <!-- NOTE about section -->
     <div class="about_container" id="about">
@@ -135,7 +138,7 @@
                     <button><a href="https://github.com/Dikhya016/Solve_maze" target="_blank"><b>GitHub</b></a></button> 
                 </div>
             </div>
-            <div>
+            <div id="p_2nd">
                 <img src="images/typemaster.png" alt="typemaster">
                 <p><h5>Terminal Typing Master</h5></p>
                 <br>
@@ -154,7 +157,7 @@
                     <button><a href="https://github.com/Dikhya016/Typing_master" target="_blank"><b>GitHub</b></a></button> 
                 </div>
             </div>
-            <div>
+            <div id="p_3rd">
                 <img src="images/file.png" alt="file">
                 <p><h5>Directory & File manipulation</h5></p>
                 <br>
@@ -193,8 +196,6 @@
             </div>
 
         </div>
-        
-
 
     </div>
 
@@ -217,7 +218,7 @@
             <div>
                 <a href="https://www.hackerrank.com/profile/dikhyasahu16" target="_blank"> <img src="images/hack.png" alt="hackerrank_logo"></a>
             </div>
-          
+        
         </div>
         <div class="p_mail">
             <div>
@@ -237,4 +238,5 @@
     </div>
 
 </body>
+<script src="./index.js"></script>
 </html>
